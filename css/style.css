@@ -3,3 +3,35 @@ primary colors: (black) #04080F  (white) #F4F7F5
 secondary colors:  (blue) #032AB6 or (blue/green) #19647E
                   (dark grey) #757575  (light grey)  #DCDCDC
 */
+
+/*Typography*/
+/*Font weights:
+  Bitter  400px & 700px (bold)
+  Open Sans  300(thin) 400 (reg) 600 (semi-bold) 700 (bold) 800 (heavy)
+  */
+
+h1, h2, h3 {
+  font-family: bitter, serif;
+  font-weight: 400;
+  line-height: 1.125em;
+}
+h1 {
+  font-size: 3.052em;
+  font-weight: 400;
+}
+h2{
+  font-size: 1.953em;
+  font-weight: 400;
+}
+h3{
+  font-size: 1.563em;
+  font-weight: 400;
+}
+
+
+body {
+  font-family: open sans, sans-serif;
+  font-size: 18px; /* Sets the font size to 18px*/
+  font-weight: 400;
+  line-height: 1.125em;
+}
