@@ -9,6 +9,21 @@ secondary colors:  (blue) #032AB6 or (blue/green) #19647E
   Bitter  400px & 700px (bold)
   Open Sans  300(thin) 400 (reg) 600 (semi-bold) 700 (bold) 800 (heavy)
   */
+  /* Layout styling-general*/
+
+*{
+  box-sizing: border-box;
+}
+
+/*Typography*/
+body {
+  font-family: open sans, sans-serif;
+  font-size: 18px; /* Sets the font size to 18px*/
+  font-weight: 400;
+  line-height: 1.125em;
+  color: #04080F;
+  background-color: #F4F7F5;
+}
 
 h1, h2, h3 {
   font-family: bitter, serif;
@@ -28,37 +43,22 @@ h3{
   font-size: 1em;
   font-weight: 700;
 }
-
-
-body {
-  font-family: open sans, sans-serif;
-  font-size: 18px; /* Sets the font size to 18px*/
-  font-weight: 400;
-  line-height: 1.125em;
-  color: #04080F;
-}
-
 img{
   width: 100%;
 }
-
 a{
-  color: #032AB6;
-  text-decoration: none; /*no underlining*/
+  color: #04080F;
+  text-decoration: none;
 }
-a:hover, a:focus{
+a:hover,
+a:focus{
+  color: #032AB6;
   text-decoration: underline;
 }
 a:active{
   text-decoration: underline;
 }
-.linkedin{
-  color: #04080F;
-}
-#home{
-  background-color: #F4F7F5;
-}
-
+/*buttons*/
 .button {
   display: inline-block;
   background-color:#032AB6;
@@ -67,11 +67,15 @@ a:active{
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #F4F7F5;
-  transition: 0.2s;
+  transition: 0.1s;
 }
 .button:hover {
-  background-color: #F4F7F5;
-  color: #032AB6;
-  border: 2px solid #032AB6;
+  opacity: 0.8;
+  color: #F4F7F5;
+  text-decoration: none;
+}
+.button:active{
+  background-color: #032AB6;
+  color: #F4F7F5;
   text-decoration: none;
 }
