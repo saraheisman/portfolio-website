@@ -58,6 +58,7 @@ a:focus{
 a:active{
   text-decoration: underline;
 }
+
 /*buttons*/
 .button {
   display: inline-block;
@@ -78,4 +79,9 @@ a:active{
   background-color: #032AB6;
   color: #F4F7F5;
   text-decoration: none;
+}
+
+/*layout styling*/
+.container{
+  padding: 0 15px;
 }
