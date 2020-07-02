@@ -85,3 +85,13 @@ a:active{
 .container{
   padding: 0 15px;
 }
+.row{
+  margin: 25px 0;
+}
+#projects .row{
+   padding-bottom: 25px;
+   border-bottom: 1px solid #757575;
+}
+#hero h1{
+  text-align: center;
+}
