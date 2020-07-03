@@ -11,7 +11,7 @@ secondary colors:  (blue) #032AB6 or (blue/green) #19647E
   */
   /* Layout styling-general*/
 
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -35,27 +35,27 @@ h1 {
   font-size: 1.953em;
   font-weight: 400;
 }
-h2{
+h2 {
   font-size: 1.25em;
   font-weight: 400;
 }
-h3{
+h3 {
   font-size: 1em;
   font-weight: 700;
 }
-img{
+img {
   width: 100%;
 }
-a{
+a {
   color: #04080F;
   text-decoration: none;
 }
 a:hover,
-a:focus{
+a:focus {
   color: #032AB6;
   text-decoration: underline;
 }
-a:active{
+a:active {
   text-decoration: underline;
 }
 
@@ -75,23 +75,218 @@ a:active{
   color: #F4F7F5;
   text-decoration: none;
 }
-.button:active{
+.button:active {
   background-color: #032AB6;
   color: #F4F7F5;
   text-decoration: none;
 }
 
 /*layout styling*/
-.container{
+.container {
   padding: 0 15px;
 }
-.row{
+.row {
   margin: 25px 0;
 }
-#projects .row{
+#projects .row {
    padding-bottom: 25px;
    border-bottom: 1px solid #757575;
 }
-#hero h1{
+#hero h1 {
+  text-align: center;
+}
+.logo {
+  max-width: 250px;
+}
+header {
+  background-color: #DCDCDC;
+  padding: 10px 0;
+  box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.44);
+  position: relative;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+  width: 100%;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0 10px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #04080F;
+}
+nav > ul > li > a:visited {
+  text-decoration: none;
+}
+nav > ul > li > a:hover, a:focus {
+  color: #032AB6;
+  text-decoration: none;
+}
+nav > ul > li > a:active {
+  color: #032AB6;
+  text-decoration: none;
+}
+#hero {
+  background-color: #DCDCDC;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+#hero span {
+  text-align: center;
+}
+#hero p {
+  text-align: center;
+}
+#contact h2 {
+    text-align: center;
+}
+#contact p {
+    text-align: center;
+}
+#contact .email {
+   text-align: right;
+}
+#contact .call {
+   text-align: right;
+}
+#contact .linkedin {
+   align: right;
+   height: 16px;
+   width: 16px;
+}
+
+/*About page layout*/
+
+#profile-image {
+  margin: 20px 0;
+}
+#about-images {
+  margin:20px 0;
+}
+
+/*perfect-properties layout*/
+/*background-colors: (light grey) #E8E8E9,  (eggshell)  #F1E9DC
+(white) #F4F7F5
+ */
+
+#pp-work {
+  margin: 40px 0;
+}
+#pp-intro {
+  background-color: #E8E8E9;
+}
+#pp-role p {
+  display: inline-block;
+  padding: 0 40px;
+  margin: 40px 0;
+}
+#pp-about {
+  background-color: #F4F7F5;
+  padding: 40px 0;
+}
+#pp-objective {
+  background-color: #E8E8E9;
+  padding: 40px 0;
+}
+#pp-mock {
+  background-color: #F1E9DC;
+  padding: 40px 0;
+}
+#pp-goals {
+  background-color: #F4F7F5;
+  padding: 40px 0;
+}
+#pp-goal-1 {
+  padding: 20px 0;
+}
+#pp-goal-2 {
+  padding: 20px 0;
+}
+
+#pp-user-flow {
+  background-color: #F4F7F5;
+  padding: 40px 0;
+}
+#pp-wireframes {
+  background-color: #E8E8E9;
+  padding: 40px 0;
+}
+#pp-sketch-image {
+  margin: 40px 0;
+}
+#pp-wireframe-images {
+  margin: 40px 0;
+}
+#pp-styleguide {
+  background-color: #F4F7F5;
+  margin: 40px 0;
+}
+#pp-colors {
+  padding: 20px 0;
+}
+#pp-typography {
+  padding: 20px 0;
+}
+#pp-icons {
+  padding: 20px 0;
+}
+#pp-imagery {
+  padding: 20px 0;
+}
+#pp-imagery .illustrations {
+  margin: 40px 0;
+}
+#pp-animation {
+  background-color: #E8E8E9;
+  margin: 40px 0;
+}
+#pp-interface {
+  background-color: #F1E9DC;
+  padding: 40px 0;
+  margin: 40px 0;
+}
+#pp-interface .mobile-background-eggshell {
+  background-color: #F1E9DC;
+}
+#pp-interface .longform-background-eggshell {
+  background-color: #F1E9DC;
+}
+#pp-interface .mobile-background-grey {
+  background-color: #E8E8E9;
+}
+#pp-interface .longform-background-grey {
+  background-color: #E8E8E9;
+}
+#pp-interface .mobile-background-white {
+  background-color: #F4F7F5;
+}
+#pp-interface .longform-background-white {
+  background-color: #F4F7F5;
+}
+#pp-prototype {
+  padding: 40px 0;
+}
+#pp-prototype h2 {
+  text-align: center;
+}
+#pp-prototype a {
+  text-align: center;
+  color: #5DB7DE;
+}
+#pp-responsive {
+  padding: 40px 0;
+  margin: 40px 0;
+}
+#pp-thanks {
+  background-color: #E8E8E9;
+  padding: 40px 0;
+  margin: 40px 0;
+}
+#pp-thanks h2 {
   text-align: center;
 }
