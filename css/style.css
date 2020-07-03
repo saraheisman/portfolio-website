@@ -193,7 +193,7 @@ nav > ul > li > a:active {
   margin: 40px 0;
 }
 #pp-about {
-  background-color: #F4F7F5;
+  background-color: #FFFFFF;
   padding: 40px 0;
 }
 #pp-objective {
@@ -205,7 +205,7 @@ nav > ul > li > a:active {
   padding: 40px 0;
 }
 #pp-goals {
-  background-color: #F4F7F5;
+  background-color: #FFFFFF;
   padding: 40px 0;
 }
 #pp-goal-1 {
@@ -216,7 +216,7 @@ nav > ul > li > a:active {
 }
 
 #pp-user-flow {
-  background-color: #F4F7F5;
+  background-color: #FFFFFF;
   padding: 40px 0;
 }
 #pp-wireframes {
@@ -230,32 +230,31 @@ nav > ul > li > a:active {
   margin: 40px 0;
 }
 #pp-styleguide {
-  background-color: #F4F7F5;
-  margin: 40px 0;
+  background-color: #FFFFFF;
+  padding: 40px 0;
 }
 #pp-colors {
-  padding: 20px 0;
+  margin: 40px 0;
 }
 #pp-typography {
-  padding: 20px 0;
+  margin: 40px 0;
 }
 #pp-icons {
-  padding: 20px 0;
+  margin: 40px 0;
 }
 #pp-imagery {
-  padding: 20px 0;
+  margin: 40px 0;
 }
 #pp-imagery .illustrations {
   margin: 40px 0;
 }
 #pp-animation {
   background-color: #E8E8E9;
-  margin: 40px 0;
+  padding: 40px 0;
 }
 #pp-interface {
   background-color: #F1E9DC;
   padding: 40px 0;
-  margin: 40px 0;
 }
 #pp-interface .mobile-background-eggshell {
   background-color: #F1E9DC;
@@ -270,10 +269,10 @@ nav > ul > li > a:active {
   background-color: #E8E8E9;
 }
 #pp-interface .mobile-background-white {
-  background-color: #F4F7F5;
+  background-color: #FFFFFF;
 }
 #pp-interface .longform-background-white {
-  background-color: #F4F7F5;
+  background-color: #FFFFFF;
 }
 #pp-prototype {
   padding: 40px 0;
@@ -286,13 +285,14 @@ nav > ul > li > a:active {
   color: #5DB7DE;
 }
 #pp-responsive {
+  background-color: #FFFFFF;
   padding: 40px 0;
-  margin: 40px 0;
 }
 #pp-thanks {
   background-color: #E8E8E9;
+  display: inline-block;
+  width: 100%;
   padding: 40px 0;
-  margin: 40px 0;
 }
 #pp-thanks h2 {
   text-align: center;
