@@ -72,7 +72,6 @@ a:active {
 }
 .button:hover, .button:focus{
   opacity: 0.8;
-  color: #F4F7F5;
   text-decoration: none;
 }
 .button:active {
