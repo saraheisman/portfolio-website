@@ -48,7 +48,7 @@ h3 {
 }
 
 h1 {
-  font-size: 1.953em;
+  font-size: 1.563em;
   font-weight: 400;
 }
 
@@ -181,7 +181,7 @@ nav>ul>li>a:active {
 }
 
 #hero h3 {
-  font-weight: bold;
+  font-weight: 400;
 }
 
 #contact {
@@ -505,6 +505,22 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
     margin-right: auto;
   }
 
+  h1 {
+    font-size: 1.95em;
+  }
+
+  h2 {
+    font-size: 1.563em;
+  }
+
+  h3 {
+    font-size: 1.25em;
+  }
+
+  body {
+    font-size: 1.25em;
+  }
+
   header {
     text-align: unset;
     padding: 20px 0 13px;
@@ -561,8 +577,16 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
     padding: 0 60px;
   }
 
+  #pp-role p {
+    font-size: 1em;
+  }
+
   /*Nalu styling*/
   #nalu-role div {
     padding: 0 40px;
+  }
+
+  #nalu-role p {
+    font-size: 1em;
   }
 }
