@@ -36,7 +36,7 @@ secondary colors:  (blue) #032AB6 or (blue/green) #19647E
 }
 
 .padding {
-  padding: 8px;
+  padding: 0 8px 0 8px;
 }
 
 /*Typography*/
@@ -63,18 +63,21 @@ h1 {
   font-size: 1.563em;
   font-weight: 400;
   margin: 80px 0;
+  padding: 8px;
 }
 
 h2 {
   font-size: 1.25em;
   font-weight: 400;
   margin: 64px 0;
+  padding: 8px;
 }
 
 h3 {
   font-size: 1em;
   font-weight: 700;
   margin: 24px 0;
+  padding: 8px;
 }
 
 img {
