@@ -1,5 +1,5 @@
 /*colors used:
-primary colors: (black) #04080F  (white) #F4F7F5
+primary colors: (black) #04080F  (white) #FFFFFF
 secondary colors:  (blue) #032AB6 or (blue/green) #19647E
                   (dark grey) #757575  (light grey)  #DCDCDC
 */
@@ -39,6 +39,10 @@ secondary colors:  (blue) #032AB6 or (blue/green) #19647E
   padding: 0 8px 0 8px;
 }
 
+.col-sm-3 {
+  width: 25%;
+}
+
 /*Typography*/
 body {
   font-family: open sans, sans-serif;
@@ -47,7 +51,7 @@ body {
   font-weight: 400;
   line-height: 1.125em;
   color: #04080F;
-  background-color: #F4F7F5;
+  background-color: #FFFFFF;
 }
 
 h1,
@@ -103,12 +107,12 @@ a:active {
 .button {
   display: inline-block;
   background-color: #032AB6;
-  color: #F4F7F5;
+  color: #FFFFFF;
   font-weight: 400;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #F4F7F5;
+  border-bottom: 2px solid #FFFFFF;
   transition-duration: 0.2s;
   transition-property: opacity;
 }
@@ -120,7 +124,7 @@ a:active {
 
 .button:active {
   background-color: #032AB6;
-  color: #F4F7F5;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
@@ -175,6 +179,7 @@ header {
 nav>ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
   display: inline-block;
   width: 100%;
 }
@@ -285,18 +290,35 @@ ol>li {
   background-color: #FFFFFF
 }
 
+.pp-margin {
+  margin: 0;
+}
+
+.pp-padding120 {
+  padding: 120px 8px 120px 8px;
+}
+
+.pp-padding80 {
+  padding: 80px 0;
+}
+
+.pp-padding-special {
+  padding: 0 0 120px 0;
+}
+
 #pp-work {
   margin: 40px 0 120px 0;
 }
 
 #pp-role h3 {
-  margin: 0;
+  padding: 0;
 }
 
 #pp-role p {
   display: inline-block;
   font-size: 0.9em;
   margin: 0;
+  padding: 0;
 }
 
 #pp-interface .mobile-background-eggshell {
@@ -327,15 +349,15 @@ ol>li {
   padding: 40px 0;
 }
 
-#pp-prototype {
-  background-color: #F1E9DC;
-  padding: 40px 0;
+#pp-filters {
+  padding: 40px 0 120px 0;
 }
 
 #pp-prototype a {
   color: #5DB7DE;
   display: block;
 }
+
 
 #pp-thanks {
   display: inline-block;
@@ -475,6 +497,10 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
     width: 25%;
   }
 
+  .col-md-2 {
+    width: 16.66%;
+  }
+
   [class*="col-"] {
     float: left;
     padding: 0 10px;
@@ -485,6 +511,7 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
     clear: both;
     display: table;
   }
+
 
   /*footer styling*/
   element.style {
@@ -498,7 +525,8 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
 
   /*Nalu styling*/
   #nalu-role div {
-    padding: 0 40px;
+    padding: 0;
+    margin: 0;
   }
 }
 
@@ -549,7 +577,7 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
 
   /*PP styling*/
   #pp-role div {
-    padding: 0 60px;
+    padding: 0 40px;
   }
 
   /*Nalu styling*/
