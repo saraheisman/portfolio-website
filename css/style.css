@@ -536,6 +536,18 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
     padding: 20px 0 13px;
   }
 
+  h1 {
+    font-size: 1.95em;
+  }
+
+  h2 {
+    font-size: 1.563em;
+  }
+
+  h3 {
+    font-size: 1.25em;
+  }
+
   nav {
     width: auto;
     float: right;
