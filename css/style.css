@@ -66,20 +66,36 @@ h3 {
 h1 {
   font-size: 1.563em;
   font-weight: 400;
+  margin: 48px 0;
 }
 
 h2 {
   font-size: 1.25em;
   font-weight: 400;
+  margin: 40px 0;
 }
 
 h3 {
   font-size: 1em;
   font-weight: 700;
+  margin: 32px 0;
+}
+
+p {
+  margin: 24px 0;
+}
+
+ul>li {
+  margin: 24px 0
+}
+
+ol>li {
+  margin: 24px 0
 }
 
 img {
   width: 100%;
+  margin: 24px 0;
 }
 
 a {
@@ -204,6 +220,14 @@ nav>ul>li>a:active {
   text-decoration: none;
 }
 
+#navigation .container {
+  margin: 36px 8px;
+}
+
+#hero .container {
+  margin: 120px 0;
+}
+
 #hero {
   background-color: #DCDCDC;
   display: inline-block;
@@ -215,6 +239,13 @@ nav>ul>li>a:active {
   font-weight: 400;
 }
 
+#projects .container {
+  margin: 120px 0;
+}
+
+#contact .conntainer {
+  margin: 120px 0;
+}
 
 .contact-links {
   text-align: left;
@@ -471,6 +502,10 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
 
 
   /*footer styling*/
+  #contact .contact-links h3 {
+    text-align: left;
+  }
+
   #contact .contact-links {
     text-align: right;
   }
