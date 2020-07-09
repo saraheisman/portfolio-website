@@ -1,0 +1,1 @@
+console.log("Hello, I'm Sarah! Welcome to my design portfolio.");
