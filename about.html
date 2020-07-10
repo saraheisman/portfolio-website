@@ -12,6 +12,10 @@
       href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&family=Open+Sans:wght@300;400;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/caf5e94cdc.js"
+      crossorigin="anonymous"
+    ></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Sarah Eisman</title>
   </head>
@@ -19,14 +23,24 @@
   <body id="about">
     <header id="navigation">
       <div class="container">
-        <a class="logo" href="index.html">saraheisman</a>
-        <nav id="nav">
-          <ul>
-            <li><a href="index.html">Work</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
+        <div class="navtoggle" id="myNavtoggle">
+          <a class="logo" href="index.html">saraheisman</a>
+          <nav id="nav">
+            <ul>
+              <li><a href="index.html">Work</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  class="icon"
+                  onclick="menuToggle()"
+                  ><i class="fas fa-bars"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
 
@@ -182,17 +196,7 @@
                   href="https://www.linkedin.com/in/sarah-eisman-27865bb7/"
                   target="_blank"
                 >
-                  <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'
-                  ><svg
-                    height="24"
-                    viewbox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m21.800781 0h-19.601562c-1.199219 0-2.199219 1-2.199219 2.199219v19.601562c0 1.199219 1 2.199219 2.199219 2.199219h19.601562c1.199219 0 2.199219-1 2.199219-2.199219v-19.601562c0-1.199219-1-2.199219-2.199219-2.199219zm-14.800781 20h-4v-11h4zm-2-12.300781c-1.199219 0-2-.800781-2-1.800781 0-1.097657.800781-1.898438 2-1.898438s2 .800781 2 1.800781c0 1.097657-.800781 1.898438-2 1.898438zm16 12.300781h-4v-6c0-1.601562-1.101562-2-1.398437-2-.300782 0-1.601563.199219-1.601563 2v6h-4v-11h4v1.601563c.601563-.902344 1.601563-1.601563 3.5-1.601563 1.898438 0 3.5 1.5 3.5 5z"
-                    />
-                  </svg>
+                  <i class="fab fa-linkedin"></i>
                 </a>
               </div>
             </div>

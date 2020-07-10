@@ -183,7 +183,7 @@ a:active {
 }
 
 .logo {
-  max-width: 250px;
+  max-width: 150px;
   font-family: bitter, serif;
   font-weight: 400;
   line-height: 1.125em;
@@ -192,23 +192,44 @@ a:active {
 
 header {
   background-color: #DCDCDC;
-  padding: 16px 0;
+  padding: 16px 16px;
   box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.44);
   position: relative;
-  text-align: center;
 }
 
+.navtoggle,
+.navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  padding-right: 0;
+  font-size: 20px;
+  color: #032AB6;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+  padding: 0 0 16px;
+}
+
+.navtoggle.responsive li {
+  display: block;
+  padding: 16px 0;
+  border-top: 1px solid #032AB6;
+}
 
 nav>ul {
   list-style-type: none;
   padding: 0;
-  margin: 16px 0;
-  display: inline-block;
-  width: 100%;
-}
-
-nav>ul>li {
-  display: inline-block;
+  margin: 0;
 }
 
 nav>ul>li>a {
@@ -257,8 +278,8 @@ nav>ul>li>a:active {
 }
 
 #contact .linkedin {
-  height: 16px;
-  width: 16px;
+  height: 24px;
+  width: 24px;
 }
 
 #contact .linkedin:hover,
@@ -347,11 +368,8 @@ nav>ul>li>a:active {
 
 #pp-mock-images {
   display: block;
-  max-width: 100%;
   width: 40%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 #pp-goals {
@@ -580,39 +598,19 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
   animation-timing-function: linear;
 }
 
-.spin {
-  animation: 2s spin infinite linear;
-}
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes flower-fall {
-  from {
-    transform: translate(100, 100px);
-  }
-
-  to {
-    transform: translate(500px, 100px);
-  }
-}
-
-.flower-fall {
-  animation: 10s flower-spin infinite alternate linear;
-}
-
 
 @media only screen and (min-width: 640px) {
   header {
     text-align: unset;
     padding: 24px 8px;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
   }
 
   nav {
@@ -624,6 +622,11 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
   nav>ul {
     margin: 0;
   }
+
+  nav>ul>li {
+    display: inline-block;
+  }
+
 
   .col-md-8 {
     width: 66.66%;
@@ -664,6 +667,11 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
 
   #contact .contact-links {
     text-align: right;
+  }
+
+  #contact .linkedin {
+    height: 36px;
+    width: 36px;
   }
 
   /*PP styling*/
@@ -729,6 +737,12 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
   #contact .contact-links {
     text-align: right;
   }
+
+  #contact .linkedin {
+    height: 36px;
+    width: 36px;
+  }
+
 
   /*About styling*/
   #intro .container {
@@ -847,6 +861,12 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
   #contact .copywrite {
     font-size: 1em;
   }
+
+  #contact .linkedin {
+    height: 36px;
+    width: 36px;
+  }
+
 
   /*PP styling*/
 
