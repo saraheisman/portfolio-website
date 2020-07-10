@@ -119,7 +119,8 @@ a:active {
 
 .button:hover,
 .button:focus {
-  opacity: 0.8;
+  background-color: #032AB6;
+  color: #FFFFFF;
 }
 
 .button:active {
