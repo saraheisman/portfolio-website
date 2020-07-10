@@ -93,6 +93,7 @@ a {
   text-decoration: none;
 }
 
+
 a:hover,
 a:focus {
   color: #032AB6;
@@ -100,6 +101,7 @@ a:focus {
 }
 
 a:active {
+  color: #032AB6;
   text-decoration: underline;
 }
 
