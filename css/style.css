@@ -323,19 +323,6 @@ nav>ul>li>a:active {
 (white) #FFFFFF
  */
 
-.background-eggshell {
-  background-color: #f1e9dc;
-}
-
-.background-grey {
-  background-color: #e8e8e9;
-  width: 100%;
-  margin: 0;
-}
-
-.background-white {
-  background-color: #ffffff;
-}
 
 #pp-prototype a {
   color: #268EBC;
@@ -439,21 +426,6 @@ nav>ul>li>a:active {
   padding: 64px 0;
 }
 
-#pp-map-menu {
-  background-color: #ffffff;
-}
-
-#pp-saved {
-  background-color: #ffffff;
-}
-
-#pp-property {
-  background-color: #e8e8e9;
-}
-
-#pp-agent {
-  background-color: #e8e8e9;
-}
 
 #pp-prototype {
   padding: 64px 8px;
@@ -464,7 +436,7 @@ nav>ul>li>a:active {
 }
 
 #pp-responsive {
-  padding: 64px 0;
+  padding: 64px 0 0 0;
 }
 
 .pp-responsive-images {
@@ -472,7 +444,7 @@ nav>ul>li>a:active {
 }
 
 #pp-thanks {
-  padding: 64px 8px;
+  padding: 0 8px 64px 8px;
   display: inline-block;
   width: 100%;
 }
@@ -612,6 +584,23 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
   color: #e8e8e9;
 }
 
+.full-mock-border {
+  border-style: solid solid none solid;
+  border-width: 1px;
+  border-bottom: 0;
+  color: #e8e8e9;
+}
+
+.full-landing-border {
+  border-style: solid;
+  border-width: 1px;
+  color: #e8e8e9;
+}
+
+.nalu-compare-img-1 {
+  padding-top: 16px;
+}
+
 /*CSS Animation*/
 .svg-animation {
   width: 100%;
@@ -699,6 +688,11 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
     content: "";
     clear: both;
     display: table;
+  }
+
+  .home-img {
+    max-width: 50%;
+    height: auto;
   }
 
   /*footer styling*/
@@ -795,6 +789,11 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
     content: "";
     clear: both;
     display: table;
+  }
+
+  .home-img {
+    max-width: 50%;
+    height: auto;
   }
 
   .center-mocks-left {
@@ -942,6 +941,11 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
     content: "";
     clear: both;
     display: table;
+  }
+
+  .home-img {
+    max-width: 40%;
+    height: auto;
   }
 
   /*footer styling*/
