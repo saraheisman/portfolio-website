@@ -107,8 +107,8 @@ a:active {
 .button {
   display: inline-block;
   background-color: #ffffff;
-  color: #032ab6;
-  border: 2px solid #032ab6;
+  color: #04080f;
+  border: 2px solid #04080f;
   font-weight: 400;
   text-decoration: none;
   padding: 10px;
@@ -119,12 +119,12 @@ a:active {
 
 .button:hover,
 .button:focus {
-  background-color: #032ab6;
+  background-color: #04080f;
   color: #ffffff;
 }
 
 .button:active {
-  background-color: #032ab6;
+  background-color: #04080f;
   color: #ffffff;
   text-decoration: none;
 }
@@ -133,9 +133,23 @@ a:active {
 .container {
   padding: 64px 16px;
 }
+#hero .container {
+  padding: 120px 0;
+}
 
 #navigation .container {
   padding: 0 8px;
+}
+
+.work-text h2 {
+  margin-bottom: 8px;
+}
+
+.work-text h3 {
+  font-weight: 400;
+  font-size: 0.97em;
+  color: #757575;
+  margin-top: 8px;
 }
 
 #contact .container {
@@ -191,7 +205,7 @@ a:active {
   font-family: bitter, serif;
   font-weight: 400;
   line-height: 1.125em;
-  color: #032ab6;
+  color: #04080f;
 }
 
 header {
@@ -221,7 +235,7 @@ main {
   top: 2px;
   padding-right: 0;
   font-size: 20px;
-  color: #032ab6;
+  color: #04080f;
 }
 
 .navtoggle li:not(:last-child) {
@@ -232,33 +246,33 @@ main {
 .navtoggle.responsive li {
   display: block;
   padding: 16px 0;
-  border-top: 1px solid #032ab6;
+  border-top: 1px solid #04080f;
 }
 
-nav>ul {
+nav > ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-nav>ul>li>a {
+nav > ul > li > a {
   padding: 0 8px;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-weight: 400;
   color: #04080f;
 }
 
-nav>ul>li>a:visited {
+nav > ul > li > a:visited {
   text-decoration: none;
 }
 
-nav>ul>li>a:hover,
+nav > ul > li > a:hover,
 a:focus {
   color: #032ab6;
   text-decoration: none;
 }
 
-nav>ul>li>a:active {
+nav > ul > li > a:active {
   color: #032ab6;
   text-decoration: none;
 }
@@ -304,7 +318,6 @@ nav>ul>li>a:active {
 
 #intro .container {
   padding: 16px 16px 64px 16px;
-  max-width: 680px;
 }
 
 .intro-text-2 {
@@ -324,9 +337,8 @@ nav>ul>li>a:active {
 (white) #FFFFFF
  */
 
-
 #pp-prototype a {
-  color: #268EBC;
+  color: #268ebc;
   display: block;
   font-size: 1.25em;
 }
@@ -383,7 +395,7 @@ nav>ul>li>a:active {
 }
 
 #pp-goals h3 {
-  color: #2B9FD2;
+  color: #2b9fd2;
 }
 
 #pp-user-flow {
@@ -426,7 +438,6 @@ nav>ul>li>a:active {
 #pp-interface .row {
   padding: 64px 0;
 }
-
 
 #pp-prototype {
   padding: 64px 8px;
@@ -482,11 +493,11 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
   margin: 0;
 }
 
-#nalu-work ul>li {
+#nalu-work ul > li {
   padding: 16px 0;
 }
 
-#nalu-work ol>li {
+#nalu-work ol > li {
   padding: 16px 0;
 }
 
@@ -604,9 +615,7 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
 
 /*CSS Animation*/
 .svg-animation {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
+  padding: 0 10px;
 }
 
 @keyframes color-change {
@@ -652,11 +661,11 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
     margin: 0;
   }
 
-  nav>ul {
+  nav > ul {
     margin: 0;
   }
 
-  nav>ul>li {
+  nav > ul > li {
     display: inline-block;
   }
 
@@ -805,6 +814,10 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
     margin: 0 auto;
   }
 
+  .work-text h3 {
+    font-size: 1.25em;
+  }
+
   /*footer styling*/
 
   #contact .linkedin {
@@ -817,6 +830,10 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .about-content {
+    padding: 0 120px;
   }
 
   /*PP styling*/
@@ -947,6 +964,10 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
   .home-img {
     max-width: 40%;
     height: auto;
+  }
+
+  .work-text h3 {
+    font-size: 1.56em;
   }
 
   /*footer styling*/
