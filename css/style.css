@@ -304,6 +304,7 @@ nav>ul>li>a:active {
 
 #intro .container {
   padding: 16px 16px 64px 16px;
+  max-width: 680px;
 }
 
 .intro-text-2 {
