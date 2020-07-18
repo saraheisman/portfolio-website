@@ -250,30 +250,30 @@ main {
   border-top: 1px solid #04080f;
 }
 
-nav>ul {
+nav > ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-nav>ul>li>a {
+nav > ul > li > a {
   padding: 0 8px;
   text-transform: lowercase;
   font-weight: 400;
   color: #04080f;
 }
 
-nav>ul>li>a:visited {
+nav > ul > li > a:visited {
   text-decoration: none;
 }
 
-nav>ul>li>a:hover,
+nav > ul > li > a:hover,
 a:focus {
   color: #032ab6;
   text-decoration: none;
 }
 
-nav>ul>li>a:active {
+nav > ul > li > a:active {
   color: #032ab6;
   text-decoration: none;
 }
@@ -332,6 +332,10 @@ nav>ul>li>a:active {
 
 #about-images {
   padding: 40px 0;
+}
+
+#about-images figcaption {
+  font-size: 0.8em;
 }
 
 /*perfect-properties layout*/
@@ -495,11 +499,11 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
   margin: 0;
 }
 
-#nalu-work ul>li {
+#nalu-work ul > li {
   padding: 16px 0;
 }
 
-#nalu-work ol>li {
+#nalu-work ol > li {
   padding: 16px 0;
 }
 
@@ -630,7 +634,7 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
 
 @keyframes color-change {
   from {
-    fill: #ffb7c5;
+    fill: #ffffff;
   }
 
   to {
@@ -671,11 +675,11 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
     margin: 0;
   }
 
-  nav>ul {
+  nav > ul {
     margin: 0;
   }
 
-  nav>ul>li {
+  nav > ul > li {
     display: inline-block;
   }
 
@@ -855,18 +859,10 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
     font-size: 1em;
   }
 
-  #pp-goal-1 {
-    max-width: 400px;
-  }
-
   .pp-img {
     width: 250px;
     text-align: center;
     margin: auto;
-  }
-
-  #pp-goal-2 {
-    max-width: 400px;
   }
 
   #pp-imagery .illustrations {
@@ -1011,6 +1007,10 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
 
   .pp-responsive-2 {
     padding-top: 72px;
+  }
+
+  #pp-goal-2 {
+    margin-left: 80px;
   }
 
   /*Nalu styling*/
