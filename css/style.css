@@ -283,6 +283,10 @@ nav > ul > li > a:active {
   display: inline-block;
   width: 100%;
   padding: 0 16px;
+  background-image: url("img/home/hero-background@2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .hero-hello {
@@ -332,10 +336,6 @@ nav > ul > li > a:active {
 
 #about-images {
   padding: 40px 0;
-}
-
-#about-images figcaption {
-  font-size: 0.8em;
 }
 
 /*perfect-properties layout*/
