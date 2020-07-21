@@ -283,10 +283,6 @@ nav > ul > li > a:active {
   display: inline-block;
   width: 100%;
   padding: 0 16px;
-  background-image: url("../img/home/hero-background@2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
 }
 
 .hero-hello {
@@ -295,6 +291,10 @@ nav > ul > li > a:active {
 
 #hero h3 {
   font-weight: 400;
+}
+
+.col-sm-12 {
+  width: 100%;
 }
 
 /*Footer*/
@@ -623,8 +623,8 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
   color: #e8e8e9;
 }
 
-.nalu-compare-img-1 {
-  padding-top: 16px;
+.col-sm-6 {
+  width: 50%;
 }
 
 /*CSS Animation*/
@@ -893,6 +893,9 @@ colors:  (white) #FFFFFF (dark teal) #079EAF (dark blue) #041D34  (light grey) #
 
   .design-text {
     max-width: 400px;
+  }
+  .nalu-login-mock {
+    width: 75%;
   }
 }
 
